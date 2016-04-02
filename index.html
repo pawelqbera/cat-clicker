@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cat Clicker: MVC + Object Literal Example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+    <div id="catClicker" class="cat-clicker">
+        <div id="catList">
+
+        </div>
+        <div id="catWrapper">
+
+        </div>
+        <div id="adminArea">
+            <a id="adminAreaBtn" class="admin-area-btn">Admin</a>
+            <div id="adminFormWrapper" class="admin-form-wrapper">
+                <label for="catName">
+                    Cat Name:
+                    <input type="text" id="catName" name="catName" required>
+                </label>
+                <label for="catUrl">
+                    Cat URL:
+                    <input type="text" id="catUrl" name="catUrl" required>
+                </label>
+                <label for="">
+                    Cat Clicks Count:
+                    <input type="text" id="catClicksCount" name="catClicksCount" required>
+                </label>
+                <a id="catAdminCancelBtn">Cancel<a/>                
+                <input id="catAdminSaveBtn" type="button" value="Save Cat">
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+    </body>
+</html>
